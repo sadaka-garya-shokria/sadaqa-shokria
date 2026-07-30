@@ -31,7 +31,29 @@
 <h2>🤲 دعاء اليوم</h2>
 
 <p id="dailyDua"></p>
+<hr>
 
+<h2>📿 عداد التسبيح</h2>
+
+<p id="count">0</p>
+
+<button onclick="increaseTasbeeh()">سبحان الله</button>
+
+<button onclick="resetTasbeeh()">تصفير</button>
+
+<script>
+let count = 0;
+
+function increaseTasbeeh(){
+count++;
+document.getElementById("count").innerHTML = count;
+}
+
+function resetTasbeeh(){
+count = 0;
+document.getElementById("count").innerHTML = count;
+}
+</script>
 </div>
 
 <script>
