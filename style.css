@@ -27,3 +27,19 @@ button {
     margin: 7px;
     border-radius: 12px;
 }
+.container {
+    border: 2px solid #d4b06a;
+    position: relative;
+}
+
+h1 {
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+.dua-box {
+    background: #f8f2df;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px 0;
+    border-right: 5px solid #176b45;
+}
