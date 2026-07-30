@@ -1,10 +1,6 @@
 body {
     font-family: Tahoma, Arial;
-    background: #f3f7f2;
-    background-image: linear-gradient(
-        rgba(255,255,255,0.85),
-        rgba(255,255,255,0.85)
-    );
+    background: linear-gradient(135deg, #fdf6e3, #dff3e3);
     text-align: center;
     padding: 30px;
     color: #333;
@@ -13,22 +9,21 @@ body {
 .container {
     max-width: 700px;
     margin: auto;
-    background: white;
+    background: rgba(255,255,255,0.9);
     padding: 25px;
-    border-radius: 20px;
-    box-shadow: 0 0 15px #ccc;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
 }
 
 h1 {
-    color: #0b7a53;
+    color: #176b45;
 }
 
 button {
-    background: #0b7a53;
+    background: #176b45;
     color: white;
     border: none;
-    padding: 12px 18px;
-    margin: 6px;
-    border-radius: 10px;
-    font-size: 16px;
+    padding: 12px 20px;
+    margin: 7px;
+    border-radius: 12px;
 }
